@@ -1,0 +1,155 @@
+select {
+  /*-webkit-appearance: none;*/
+  -webkit-border-radius: 0px;
+}
+@media (min-width: 1360px) {
+  .container {
+    max-width: 1360px;
+  }
+
+}
+.container {
+  margin-top: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.form-control {
+  border-radius: 0rem;
+  font-size: 0.75rem;
+  height: 27px;
+  padding: 3px 3px;
+}
+.form-group {
+  margin-bottom: 0.25rem !important;
+  font-size: 0.75rem;
+
+  [class*="col-"] {
+    padding-right: 3px;
+    padding-left: 3px;
+  }
+}
+.btn {
+  /*border-radius: 0rem;*/
+}
+.form-control::-webkit-input-placeholder {
+  color: #6c757d;
+  opacity: 0.65;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 0.65;
+}
+
+.form-control::-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 0.65;
+}
+.form-control::placeholder {
+  color: #6c757d;
+  opacity: 0.65;
+}
+.col-form-label {
+  font-size: 0.75rem;
+  line-height: 1;
+}
+.form-check-input {
+  margin-top: 0.2rem;
+}
+/*
+input[type="radio"].form-check-input {
+margin-top: 0.1rem;
+}
+*/
+.form-check {
+  label {
+    margin: 4px 20px;
+  }
+}
+.input-group-append {
+  .btn-sm {
+    padding: 0.2rem 0.5rem;
+  }
+}
+
+.btn-light {
+  /*border-color: #9ca09e;*/
+  border-color: rgba(0, 0, 0, 0.125);
+}
+
+.btn-outline-form {
+  border-color: #ced4da;
+}
+
+[class*="col-"]{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.card > .overlay, .overlay-wrapper > .overlay, .card > .loading-img, .overlay-wrapper > .loading-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.page-link {
+  color: #212529;
+}
+.page-item.active .page-link {
+  background-color: #343a40;
+  border-color: #25282c; 
+}
+
+.modal-body {
+  .row {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+
+
+.card .overlay, .overlay-wrapper .overlay {
+  z-index: 1550;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 3px;
+}
+
+.card .overlay > .fa, .overlay-wrapper .overlay > .fa {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -15px;
+  margin-top: -15px;
+  color: #000;
+  font-size: 30px;
+}
+.navbar{
+  z-index: 1600;  
+}
+.modal {
+  z-index: 1700;
+}
+.input-group-text{
+  font-size: 0.7875rem;
+}
+
+.btn-group-xs > .btn, .btn-xs {
+    padding: 1px 5px;
+    font-size: 10px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+/* Selectize */
+
+.selectize-input {
+  border-radius: 0px;
+  min-height: 27px;
+  font-size: 0.75rem;
+  padding: 2px 4px;
+}
+.selectize-input.dropdown-active{
+  border-radius: 0px;
+}
+
+/* End of Selectize */
