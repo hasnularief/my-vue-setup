@@ -1,0 +1,10 @@
+{
+    "extends": [
+    	"eslint:recommended",
+    	"plugin:vue/recommended"
+    ],
+    "rules": {
+    	"vue/return-in-computed-property": "off",
+    	"vue/max-attributes-per-line": "off"
+    }
+}
